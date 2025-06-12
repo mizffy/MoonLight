@@ -42,7 +42,7 @@ namespace StudioMaron
         // Timeline���炱�̃��X�g���X�V���AUpdate���Ɍv�Z����
         [HideInInspector] public List<LightColorParameter> previousList = new List<LightColorParameter>();
 
-        // �ꏏ�ɃA�^�b�`����Ă���Light Flash Controller(�X�N���v�g���Ŏ����擾����)
+        // �ꏏ�ɃA�^�b�����Ă���Light Flash Controller(�X�N���v�g���Ŏ����擾����)
         [HideInInspector] public LightFlashController flashController;
 
         // �v�Z�p�̕ϐ�
@@ -152,21 +152,17 @@ namespace StudioMaron
                 }
                 // Light Flash Controller������ꍇ�͂��̌W�����|����
                 b_Intensity = 1;
-                float flashIntensity = 1f;
                 if (flashController != null)
                 {
                     b_Intensity = flashController.IntensityCoef(i, materialList.Count);
                 }
                 else
                 {
-                    if (TryGetComponent(out flashController))
-                    {
+                    if(TryGetComponent(out flashController))
                         b_Intensity = flashController.IntensityCoef(i, materialList.Count);
-                    }
                 }
-
-                // EmissionColorに反映（flashIntensityを新たに追加）
-                materialList[i].SetColor(shaderKeyWord, baseIntensity * b_Intensity * flashIntensity * (m_Intensity * m_Color * (1 - x_Weight) + r_Intensity * r_Color * (x_Weight + r_Weight)));
+                // �W�����g���ăJ���[���Z�o���ēK�p
+                materialList[i].SetColor(shaderKeyWord, baseIntensity * b_Intensity * (m_Intensity * m_Color * (1 - x_Weight) + r_Intensity * r_Color * (x_Weight + r_Weight)));
             }
         }
 
