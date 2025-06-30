@@ -55,6 +55,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-9076604186530198397
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-9028694037664921229
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -642,8 +716,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: 18.4
-    allFixed_Pan: -54
+    allFixed_Tilt: -7.2
+    allFixed_Pan: -21
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -1071,6 +1145,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-8404852268385388199
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-8398739008631354603
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1552,10 +1700,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: -1819749415551859131}
-    m_Duration: 18.250000000000004
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8147647792827617478}
     m_EaseInDuration: 0
@@ -1601,7 +1749,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1.91   BPM: OFF'
+    m_DisplayName: 'Intensity x2.86   BPM: OFF'
   - m_Version: 1
     m_Start: 47.166666666666664
     m_ClipIn: 0
@@ -1768,7 +1916,7 @@ MonoBehaviour:
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 1418328913674743617}
-    m_Duration: 18.96666666666667
+    m_Duration: 18.919465796928854
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8103529876657561151}
     m_EaseInDuration: 0
@@ -8131,10 +8279,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x1   BPM: OFF'
   - m_Version: 1
-    m_Start: 29
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 489967501976984922}
-    m_Duration: 18.166666666666668
+    m_Duration: 18.213867536404482
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8103529876657561151}
     m_EaseInDuration: 0
@@ -9377,6 +9525,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-7321826714594991789
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-7301821896869883818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9616,6 +9838,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-6926782375592840861
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-6829138032547272004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10278,80 +10574,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &-6562016815998576424
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-6556632783655322045
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10665,6 +10887,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-6241745069136690463
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-6197029847922151833
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10794,80 +11090,6 @@ MonoBehaviour:
     lookAtTarget_NoiseRange: 0
     lookAtTarget_NoiseSpeed: 0
     noiseRandomSeed: 1
---- !u!114 &-6017488836050978525
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-5930747001001092934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11001,154 +11223,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &-5775923693307498508
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
---- !u!114 &-5762494827940603696
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-5731989397670266057
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11513,10 +11587,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: -5661777389950243908}
-    m_Duration: 5.083333333333332
+    m_Duration: 5.047200869737814
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5616829409121441686}
     m_EaseInDuration: 0
@@ -11573,7 +11647,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0.13333333333333333
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -11693,6 +11767,75 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 'Intensity x0   BPM: OFF'
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 7097835618644560768}
+    m_Duration: 5.933333333333332
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -5616829409121441686}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.13333333333333333
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -11896,7 +12039,7 @@ MonoBehaviour:
   m_Name: LightColorClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1
+    intensityMultiplier: 2.62
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -11938,80 +12081,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &-5529548891776227778
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-5465595955677998931
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12435,6 +12504,80 @@ MonoBehaviour:
     lookAtTarget_NoiseRange: 0
     lookAtTarget_NoiseSpeed: 0
     noiseRandomSeed: 1
+--- !u!114 &-5141570481080380094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-5065575410536604509
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12677,10 +12820,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 5097464216406789815}
-    m_Duration: 18.249999999999996
+    m_Duration: 18.21386753640448
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4904405927701608879}
     m_EaseInDuration: 0
@@ -12744,7 +12887,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1.48   BPM: OFF'
+    m_DisplayName: 'Intensity x1.42   BPM: OFF'
   - m_Version: 1
     m_Start: 47.166666666666664
     m_ClipIn: 0
@@ -12931,7 +13074,7 @@ MonoBehaviour:
   m_Name: LightColorClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1.28
+    intensityMultiplier: 1.15
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -14498,6 +14641,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-4127817502712483921
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-4031390336302264402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14777,10 +14994,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x1   BPM: OFF'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: -4344113696479831800}
-    m_Duration: 18.250000000000004
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3764654733889003032}
     m_EaseInDuration: 0
@@ -14789,25 +15006,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -14987,7 +15186,7 @@ MonoBehaviour:
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 3526960549222273730}
-    m_Duration: 18.883333333333333
+    m_Duration: 18.919465796928854
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3764654733889003032}
     m_EaseInDuration: 0
@@ -15860,80 +16059,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &-3010001647058344502
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-2980046200324948984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17388,6 +17513,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-2858315577530133753
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-2851042303151125447
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17464,7 +17663,7 @@ MonoBehaviour:
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 3968239264136147348}
-    m_Duration: 18.883333333333333
+    m_Duration: 18.919465796928854
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2851042303151125447}
     m_EaseInDuration: 0
@@ -17512,10 +17711,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x3.57   BPM: OFF'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 8660709267565833693}
-    m_Duration: 18.249999999999996
+    m_Duration: 18.21386753640448
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2851042303151125447}
     m_EaseInDuration: 0
@@ -19611,10 +19810,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x1.2   BPM: 200'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 3061707046090379388}
-    m_Duration: 5.083333333333332
+    m_Duration: 5.047200869737814
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2672473704428070110}
     m_EaseInDuration: 0
@@ -20397,7 +20596,7 @@ MonoBehaviour:
     m_Start: 10.05
     m_ClipIn: 0
     m_Asset: {fileID: -4195734981600289309}
-    m_Duration: 18.866666666666667
+    m_Duration: 18.902799130262185
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2442586224897298370}
     m_EaseInDuration: 0
@@ -20445,10 +20644,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x3.09   BPM: OFF'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 4385473687590735381}
-    m_Duration: 18.250000000000004
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2442586224897298370}
     m_EaseInDuration: 0
@@ -20639,6 +20838,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-2374961259805690816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-2331462689780916205
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21242,7 +21515,7 @@ MonoBehaviour:
   m_Name: LightColorClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1.91
+    intensityMultiplier: 2.86
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -21339,6 +21612,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-1699637634511123384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &-1674367203849735522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21927,80 +22274,6 @@ MonoBehaviour:
     lookAtTarget_NoiseRange: 0
     lookAtTarget_NoiseSpeed: 0
     noiseRandomSeed: 1
---- !u!114 &-1066697788998281374
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-986468193653225348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22056,80 +22329,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &-887493378810626184
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &-885069218605668875
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22205,8 +22404,8 @@ MonoBehaviour:
       key0: {r: 0.9150943, g: 0.77665293, b: 0.70358664, a: 1}
       key1: {r: 0.029206559, g: 0.018369682, b: 0.01281231, a: 0.8509804}
       key2: {r: 0.1010334, g: 0.062211346, b: 0.041481517, a: 1}
-      key3: {r: 0.7735849, g: 0.5953202, b: 0.49991098, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0.91, g: 0.77545005, b: 0.70070004, a: 0}
+      key4: {r: 0.7735849, g: 0.5953202, b: 0.49991098, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
@@ -22214,7 +22413,7 @@ MonoBehaviour:
       ctime1: 20635
       ctime2: 48912
       ctime3: 65535
-      ctime4: 0
+      ctime4: 65535
       ctime5: 0
       ctime6: 0
       ctime7: 0
@@ -23062,903 +23261,6 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: All_Fixed
   - m_Version: 1
-    m_Start: 1.5
-    m_ClipIn: 0
-    m_Asset: {fileID: -1066697788998281374}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 2.166666666666667
-    m_ClipIn: 0
-    m_Asset: {fileID: -3010001647058344502}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 3.5000000000000004
-    m_ClipIn: 0
-    m_Asset: {fileID: -887493378810626184}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 2.8333333333333335
-    m_ClipIn: 0
-    m_Asset: {fileID: -5529548891776227778}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 6.75
-    m_ClipIn: 0
-    m_Asset: {fileID: 4456185346185244079}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 6.083333333333333
-    m_ClipIn: 0
-    m_Asset: {fileID: -5775923693307498508}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 4.083333333333333
-    m_ClipIn: 0
-    m_Asset: {fileID: -5762494827940603696}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 4.75
-    m_ClipIn: 0
-    m_Asset: {fileID: 4223057095925355907}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 5.416666666666666
-    m_ClipIn: 0
-    m_Asset: {fileID: -6562016815998576424}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 9.333333333333334
-    m_ClipIn: 0
-    m_Asset: {fileID: -6017488836050978525}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 7.333333333333334
-    m_ClipIn: 0
-    m_Asset: {fileID: 8550257983787731965}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 8
-    m_ClipIn: 0
-    m_Asset: {fileID: 6014356345804309709}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
-    m_Start: 8.666666666666668
-    m_ClipIn: 0
-    m_Asset: {fileID: 5965853007799303295}
-    m_Duration: 0.25
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -579927169047514326}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: All_Fixed
-  - m_Version: 1
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -8674365419615026747}
@@ -24047,6 +23349,903 @@ MonoBehaviour:
     m_MixOutCurve:
       serializedVersion: 2
       m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 1.5
+    m_ClipIn: 0
+    m_Asset: {fileID: -8404852268385388199}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 2.1666666666666665
+    m_ClipIn: 0
+    m_Asset: {fileID: -6241745069136690463}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 2.8333333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 3979026241048777557}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 3.5
+    m_ClipIn: 0
+    m_Asset: {fileID: -1699637634511123384}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 4.166666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -5141570481080380094}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 4.833333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -6926782375592840861}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 5.5
+    m_ClipIn: 0
+    m_Asset: {fileID: 1533561357332842035}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 6.166666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -2374961259805690816}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 6.833333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -138283613928468176}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 7.483333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: -4127817502712483921}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 8.149999999999999
+    m_ClipIn: 0
+    m_Asset: {fileID: -7321826714594991789}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 8.816666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: -9076604186530198397}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: All_Fixed
+  - m_Version: 1
+    m_Start: 9.483333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -2858315577530133753}
+    m_Duration: 0.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -579927169047514326}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -26191,7 +26390,7 @@ MonoBehaviour:
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -3103619227121268100}
-    m_Duration: 18.883333333333333
+    m_Duration: 18.919465796928854
     m_TimeScale: 1
     m_ParentTrack: {fileID: -274064978427237973}
     m_EaseInDuration: 0
@@ -26497,6 +26696,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &-138283613928468176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27621,8 +27894,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: -11.3
-    allFixed_Pan: -111
+    allFixed_Tilt: 2.2
+    allFixed_Pan: -57
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -28607,6 +28880,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &1533561357332842035
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &1582452646903664107
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29574,7 +29921,7 @@ MonoBehaviour:
     m_Start: 10.05
     m_ClipIn: 0
     m_Asset: {fileID: -881825022648954774}
-    m_Duration: 18.866666666666664
+    m_Duration: 18.902799130262185
     m_TimeScale: 1
     m_ParentTrack: {fileID: 2066921114318913207}
     m_EaseInDuration: 0
@@ -29622,10 +29969,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x6   BPM: 200'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 7333976294613217143}
-    m_Duration: 19.516666666666662
+    m_Duration: 19.480534203071144
     m_TimeScale: 1
     m_ParentTrack: {fileID: 2066921114318913207}
     m_EaseInDuration: 0
@@ -31064,10 +31411,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666664
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 3505395547808623889}
-    m_Duration: 18.250000000000007
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: 2910964323833389759}
     m_EaseInDuration: 0
@@ -31131,7 +31478,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1.63   BPM: OFF'
+    m_DisplayName: 'Intensity x2.11   BPM: OFF'
   - m_Version: 1
     m_Start: 47.16666666666667
     m_ClipIn: 0
@@ -33351,7 +33698,7 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1.63
+    intensityMultiplier: 2.11
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -34679,6 +35026,80 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
+--- !u!114 &3979026241048777557
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
+  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    weight: 0
+    clipTime: 0
+    operationMode: 1
+    isInstant: 0
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
+    allFixed_NoiseRange: 0
+    allFixed_NoiseSpeed: 0
+    lineFixed_Tilt: 0
+    lineFixed_Pan: 0
+    lineFixed_TiltCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lineFixed_Asymmetry: 0
+    lineFixed_NoiseRange: 0
+    lineFixed_NoiseSpeed: 0
+    randomFixed_MaxPan: 180
+    randomFixed_MinPan: -180
+    randomFixed_MaxTilt: 90
+    randomFixed_MinTilt: -90
+    randomFixed_RandomSeed: 1234
+    randomFixed_NoiseRange: 0
+    randomFixed_NoiseSpeed: 0
+    rotation_Tilt: 15
+    rotation_CycleTime: 3
+    rotation_Sync: 0
+    rotation_ReverseRate: 0
+    rotation_RandomSeed: 1234
+    tiltWave_MaxTilt: 30
+    tiltWave_MinTilt: -30
+    tiltWave_CycleTime: 5
+    tiltWave_Sync: 0
+    tiltWave_Pan: 0
+    searchLight_Range: 0.5
+    searchLight_Speed: 0.5
+    searchLight_RandomSeed: 1234
+    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
+    lookAtTarget_NoiseRange: 0
+    lookAtTarget_NoiseSpeed: 0
+    noiseRandomSeed: 1234
 --- !u!114 &4001726020330107134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34921,7 +35342,7 @@ MonoBehaviour:
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -7669723905225570603}
-    m_Duration: 18.883333333333333
+    m_Duration: 18.919465796928854
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4169842837434676421}
     m_EaseInDuration: 0
@@ -34987,10 +35408,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x2.76   BPM: 20'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 4181297285485775250}
-    m_Duration: 18.249999999999996
+    m_Duration: 18.21386753640448
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4169842837434676421}
     m_EaseInDuration: 0
@@ -35458,80 +35879,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &4223057095925355907
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &4312950389839778037
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35826,80 +36173,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &4456185346185244079
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &4492836843597188328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37477,7 +37750,7 @@ MonoBehaviour:
     m_Start: 10.033333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 1946378254410425374}
-    m_Duration: 18.883333333333333
+    m_Duration: 18.919465796928854
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4500984611366900797}
     m_EaseInDuration: 0
@@ -38183,7 +38456,7 @@ MonoBehaviour:
   m_Name: LightColorClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1.48
+    intensityMultiplier: 1.42
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -38596,10 +38869,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: -4847180976429997734}
-    m_Duration: 18.250000000000004
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5249631675471739173}
     m_EaseInDuration: 0
@@ -38645,7 +38918,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1.28   BPM: OFF'
+    m_DisplayName: 'Intensity x1.15   BPM: OFF'
   - m_Version: 1
     m_Start: 47.166666666666664
     m_ClipIn: 0
@@ -39280,8 +39553,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
+    allFixed_Tilt: 67.5
+    allFixed_Pan: -17
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -41182,154 +41455,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &5965853007799303295
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
---- !u!114 &6014356345804309709
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &6014375726001021066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42337,10 +42462,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: -5539894628657779948}
-    m_Duration: 18.250000000000004
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6589252551058792610}
     m_EaseInDuration: 0
@@ -42386,7 +42511,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1   BPM: OFF'
+    m_DisplayName: 'Intensity x2.62   BPM: OFF'
   - m_Version: 1
     m_Start: 47.166666666666664
     m_ClipIn: 0
@@ -43131,6 +43256,61 @@ MonoBehaviour:
       m_NumAlphaKeys: 3
     gradientValue: 0.453
     colorScrollBPM: 30
+    colorScrollBeat: 2
+    reverseScroll: 0
+    overrideRamdomSeed: 0
+    randomSeed: 1234
+    operationMode: 0
+    mixWeight: 0.5
+    enableBeatFlash: 1
+    flashCycleDuration: 4
+--- !u!114 &7097835618644560768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd41aeac58fa21e419bf78d1fbb8f566, type: 3}
+  m_Name: LightColorClip
+  m_EditorClassIdentifier: 
+  behaviour:
+    intensityMultiplier: 0
+    gradientMode: 0
+    gradientColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradientValue: 0.5
+    colorScrollBPM: 0
     colorScrollBeat: 2
     reverseScroll: 0
     overrideRamdomSeed: 0
@@ -46485,8 +46665,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: 22.5
-    allFixed_Pan: 59
+    allFixed_Tilt: 13.1
+    allFixed_Pan: 23
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -46729,7 +46909,7 @@ MonoBehaviour:
     m_Start: 10.05
     m_ClipIn: 0
     m_Asset: {fileID: 1133054195376894024}
-    m_Duration: 18.866666666666667
+    m_Duration: 18.902799130262185
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8414370013046984457}
     m_EaseInDuration: 0
@@ -46777,10 +46957,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 'Intensity x0   BPM: OFF'
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: -3381427438182199252}
-    m_Duration: 18.250000000000004
+    m_Duration: 18.213867536404486
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8414370013046984457}
     m_EaseInDuration: 0
@@ -51064,80 +51244,6 @@ MonoBehaviour:
     mixWeight: 0.5
     enableBeatFlash: 1
     flashCycleDuration: 4
---- !u!114 &8550257983787731965
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6954a3c934d4aff4e90d3f58b1d081d5, type: 3}
-  m_Name: LightAngleClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  behaviour:
-    weight: 0
-    clipTime: 0
-    operationMode: 1
-    isInstant: 0
-    allFixed_Tilt: -67.7
-    allFixed_Pan: 149
-    allFixed_NoiseRange: 0
-    allFixed_NoiseSpeed: 0
-    lineFixed_Tilt: 0
-    lineFixed_Pan: 0
-    lineFixed_TiltCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    lineFixed_Asymmetry: 0
-    lineFixed_NoiseRange: 0
-    lineFixed_NoiseSpeed: 0
-    randomFixed_MaxPan: 180
-    randomFixed_MinPan: -180
-    randomFixed_MaxTilt: 90
-    randomFixed_MinTilt: -90
-    randomFixed_RandomSeed: 1234
-    randomFixed_NoiseRange: 0
-    randomFixed_NoiseSpeed: 0
-    rotation_Tilt: 15
-    rotation_CycleTime: 3
-    rotation_Sync: 0
-    rotation_ReverseRate: 0
-    rotation_RandomSeed: 1234
-    tiltWave_MaxTilt: 30
-    tiltWave_MinTilt: -30
-    tiltWave_CycleTime: 5
-    tiltWave_Sync: 0
-    tiltWave_Pan: 0
-    searchLight_Range: 0.5
-    searchLight_Speed: 0.5
-    searchLight_RandomSeed: 1234
-    lookAtTarget_LookAtWorldOffset: {x: 0, y: 0, z: 0}
-    lookAtTarget_NoiseRange: 0
-    lookAtTarget_NoiseSpeed: 0
-    noiseRandomSeed: 1234
 --- !u!114 &8571350389637136053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51684,7 +51790,7 @@ MonoBehaviour:
   m_Name: LightColorClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1.58
+    intensityMultiplier: 1.65
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -51877,10 +51983,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.916666666666668
+    m_Start: 28.952799130262186
     m_ClipIn: 0
     m_Asset: {fileID: 9029571325194656894}
-    m_Duration: 18.249999999999996
+    m_Duration: 18.21386753640448
     m_TimeScale: 1
     m_ParentTrack: {fileID: 9162728569231718495}
     m_EaseInDuration: 0
@@ -51944,7 +52050,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1.58   BPM: OFF'
+    m_DisplayName: 'Intensity x1.65   BPM: OFF'
   - m_Version: 1
     m_Start: 47.166666666666664
     m_ClipIn: 0
