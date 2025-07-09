@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1
+    intensityMultiplier: 3
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -1754,7 +1754,7 @@ MonoBehaviour:
     m_Start: 47.166666666666664
     m_ClipIn: 0
     m_Asset: {fileID: 5637599547270362218}
-    m_Duration: 1.2666666666666586
+    m_Duration: 19.516666666666673
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8147647792827617478}
     m_EaseInDuration: 0
@@ -10145,7 +10145,7 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 0.5
+    intensityMultiplier: 0.96
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -11424,8 +11424,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: -11.3
-    allFixed_Pan: -111
+    allFixed_Tilt: 2.2
+    allFixed_Pan: -57
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -11656,25 +11656,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -11839,25 +11821,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -13294,7 +13258,7 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1
+    intensityMultiplier: 3.5
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -14250,12 +14214,12 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1
+    intensityMultiplier: 2
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
-      key0: {r: 0.11690104, g: 0.18420666, b: 0.3490566, a: 1}
-      key1: {r: 0.11690104, g: 0.18420666, b: 0.3490566, a: 1}
+      key0: {r: 0.061409745, g: 0.097772434, b: 0.18867922, a: 1}
+      key1: {r: 0.061409745, g: 0.097772434, b: 0.18867922, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -14992,7 +14956,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1   BPM: OFF'
+    m_DisplayName: 'Intensity x1.54   BPM: OFF'
   - m_Version: 1
     m_Start: 28.952799130262186
     m_ClipIn: 0
@@ -15043,7 +15007,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1   BPM: OFF'
+    m_DisplayName: 'Intensity x2   BPM: OFF'
   - m_Version: 1
     m_Start: 47.16666666666667
     m_ClipIn: 0
@@ -15112,7 +15076,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x0.5   BPM: OFF'
+    m_DisplayName: 'Intensity x0.96   BPM: OFF'
   - m_Version: 1
     m_Start: 48.43333333333333
     m_ClipIn: 0
@@ -15181,7 +15145,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x0.72   BPM: OFF'
+    m_DisplayName: 'Intensity x2   BPM: OFF'
   - m_Version: 1
     m_Start: 10.033333333333333
     m_ClipIn: 0
@@ -15708,8 +15672,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: 10.4
-    allFixed_Pan: 100
+    allFixed_Tilt: 13.1
+    allFixed_Pan: 23
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -17783,7 +17747,7 @@ MonoBehaviour:
     m_Start: 48.43333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -4709990501773318004}
-    m_Duration: 5
+    m_Duration: 18.550000000000004
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2851042303151125447}
     m_EaseInDuration: 0
@@ -17847,7 +17811,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1   BPM: OFF'
+    m_DisplayName: 'Intensity x3.5   BPM: OFF'
   m_Markers:
     m_Objects: []
 --- !u!114 &-2844502357090264879
@@ -20716,7 +20680,7 @@ MonoBehaviour:
     m_Start: 48.43333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -8644927068438740271}
-    m_Duration: 5
+    m_Duration: 18.550000000000004
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2442586224897298370}
     m_EaseInDuration: 0
@@ -20780,7 +20744,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x1   BPM: OFF'
+    m_DisplayName: 'Intensity x3   BPM: OFF'
   m_Markers:
     m_Objects: []
 --- !u!114 &-2421449895046256757
@@ -22431,7 +22395,7 @@ MonoBehaviour:
       m_NumAlphaKeys: 3
     gradientValue: 0.5
     colorScrollBPM: 200
-    colorScrollBeat: 16
+    colorScrollBeat: 20
     reverseScroll: 1
     overrideRamdomSeed: 0
     randomSeed: 1234
@@ -30036,7 +30000,58 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Intensity x3   BPM: OFF'
+    m_DisplayName: 'Intensity x3.15   BPM: OFF'
+  - m_Version: 1
+    m_Start: 48.45
+    m_ClipIn: 0
+    m_Asset: {fileID: 8643998466818828094}
+    m_Duration: 18.902799130262185
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 2066921114318913207}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 'Intensity x6   BPM: 200'
   m_Markers:
     m_Objects: []
 --- !u!114 &2069240070826800477
@@ -30346,21 +30361,21 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 0.72
+    intensityMultiplier: 2
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
-      key0: {r: 0.05931826, g: 0.08608079, b: 0.4056604, a: 1}
-      key1: {r: 0.6316305, g: 0.72718054, b: 0.8867924, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 1}
+      key0: {r: 0.061409745, g: 0.097772434, b: 0.18867922, a: 1}
+      key1: {r: 0.061409745, g: 0.097772434, b: 0.18867922, a: 1}
+      key2: {r: 0.6316305, g: 0.72718054, b: 0.8867924, a: 1}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 1337
-      ctime2: 0
+      ctime1: 65535
+      ctime2: 2484
       ctime3: 0
       ctime4: 0
       ctime5: 0
@@ -38037,8 +38052,8 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: 12
-    allFixed_Pan: -89
+    allFixed_Tilt: -7.2
+    allFixed_Pan: -21
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 0
     lineFixed_Tilt: 0
@@ -42516,7 +42531,7 @@ MonoBehaviour:
     m_Start: 47.166666666666664
     m_ClipIn: 0
     m_Asset: {fileID: 6424478253031898068}
-    m_Duration: 1.2666666666666586
+    m_Duration: 19.516666666666673
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6589252551058792610}
     m_EaseInDuration: 0
@@ -43590,12 +43605,12 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 1
+    intensityMultiplier: 1.54
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
-      key0: {r: 0.11690104, g: 0.18420666, b: 0.3490566, a: 1}
-      key1: {r: 0.11690104, g: 0.18420666, b: 0.3490566, a: 1}
+      key0: {r: 0.061409745, g: 0.097772434, b: 0.18867922, a: 1}
+      key1: {r: 0.061409745, g: 0.097772434, b: 0.18867922, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -43833,7 +43848,7 @@ MonoBehaviour:
     clipTime: 0
     operationMode: 1
     isInstant: 0
-    allFixed_Tilt: 28.1
+    allFixed_Tilt: 12.1
     allFixed_Pan: 1
     allFixed_NoiseRange: 0
     allFixed_NoiseSpeed: 1
@@ -43903,7 +43918,7 @@ MonoBehaviour:
   m_Name: LightColorClip
   m_EditorClassIdentifier: 
   behaviour:
-    intensityMultiplier: 3
+    intensityMultiplier: 3.15
     gradientMode: 0
     gradientColor:
       serializedVersion: 2
@@ -44313,10 +44328,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: All_Fixed
   - m_Version: 1
-    m_Start: 46.03333333333333
+    m_Start: 47.166666666666664
     m_ClipIn: 0
     m_Asset: {fileID: 7385650289665111472}
-    m_Duration: 2.1499999999999986
+    m_Duration: 1.0166666666666657
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7518699824094382374}
     m_EaseInDuration: 0
@@ -51348,6 +51363,61 @@ MonoBehaviour:
     colorScrollBPM: 0
     colorScrollBeat: 2
     reverseScroll: 0
+    overrideRamdomSeed: 0
+    randomSeed: 1234
+    operationMode: 0
+    mixWeight: 0.5
+    enableBeatFlash: 1
+    flashCycleDuration: 4
+--- !u!114 &8643998466818828094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd41aeac58fa21e419bf78d1fbb8f566, type: 3}
+  m_Name: LightColorClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  behaviour:
+    intensityMultiplier: 6
+    gradientMode: 0
+    gradientColor:
+      serializedVersion: 2
+      key0: {r: 0.9150943, g: 0.77665293, b: 0.70358664, a: 1}
+      key1: {r: 0.029206559, g: 0.018369682, b: 0.01281231, a: 0.8509804}
+      key2: {r: 0.1010334, g: 0.062211346, b: 0.041481517, a: 1}
+      key3: {r: 0.91, g: 0.77545005, b: 0.70070004, a: 0}
+      key4: {r: 0.7735849, g: 0.5953202, b: 0.49991098, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 20635
+      ctime2: 48912
+      ctime3: 65535
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 35347
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 3
+    gradientValue: 0.5
+    colorScrollBPM: 200
+    colorScrollBeat: 12
+    reverseScroll: 1
     overrideRamdomSeed: 0
     randomSeed: 1234
     operationMode: 0
